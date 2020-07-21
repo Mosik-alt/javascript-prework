@@ -41,6 +41,9 @@ else if (computerMove =='kamień' && playerMove == 'nożyce'){
 else if (computerMove =='kamień' && playerMove == 'kamień'){
   printMessage('Remis! Zagrajmy jeszcze raz!');
 }
+else if (computerMove =='kamień' && playerMove == 'nieznany ruch'){
+  printMessage('Wybierz 1, 2 lub 3!');
+}
 if( computerMove == 'papier' && playerMove == 'kamień'){
   printMessage('Ty wygrywasz!');
 }
@@ -49,6 +52,9 @@ else if (computerMove =='papier' && playerMove == 'nożyce'){
 }
 else if (computerMove =='papier' && playerMove == 'papier'){
   printMessage('Remis! Zagrajmy jeszcze raz!');
+}
+else if (computerMove =='papier' && playerMove == 'nieznany ruch'){
+  printMessage('Wybierz 1, 2 lub 3!');
 }
 if( computerMove == 'nożyce' && playerMove == 'kamień'){
   printMessage('Ty wygrywasz!');
@@ -59,6 +65,10 @@ else if (computerMove =='nożyce' && playerMove == 'papier'){
 else if (computerMove =='nożyce' && playerMove == 'nożyce'){
   printMessage('Remis! Zagrajmy jeszcze raz!');
 }
+else if (computerMove =='nożyce' && playerMove == 'nieznany ruch'){
+  printMessage('Wybierz 1, 2 lub 3!');
+}
+
 
 
 
