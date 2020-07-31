@@ -1,3 +1,4 @@
+
 function playGame(argPlayerInput) {
   let randomNumber = Math.floor(Math.random() * 3 + 1);
 
@@ -83,8 +84,8 @@ function playGame(argPlayerInput) {
       printMessage('Wybierz 1, 2 lub 3!');
     }
   }
-clearMessages();
-displayResult(computerMove, playerMove);
+  clearMessages();
+  displayResult(computerMove, playerMove);
 }
 
 
@@ -99,6 +100,7 @@ document.getElementById('play-paper').addEventListener('click', function () {
 document.getElementById('play-scissors').addEventListener('click', function () {
   playGame(3);
 });
+
 
 
 
