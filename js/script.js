@@ -1,8 +1,8 @@
 
 function playGame(argPlayerInput) {
-  let randomNumber = Math.floor(Math.random() * 3 + 1);
-  let computerMove = getMoveName(randomNumber);
-  let playerMove = getMoveName(argPlayerInput);
+  const randomNumber = Math.floor(Math.random() * 3 + 1);
+  const computerMove = getMoveName(randomNumber);
+  const playerMove = getMoveName(argPlayerInput);
 
   function getMoveName(argMoveId) {
     if (argMoveId == 1) {
